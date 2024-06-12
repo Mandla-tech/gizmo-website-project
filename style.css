@@ -1,0 +1,206 @@
+/* Define Color Palette */
+:root {
+    --primary-color: #F4A261;
+    --secondary-color: #264653;
+    --accent-color: #2A9D8F;
+    --background-color: #eed596;
+    --text-color: #333333;
+  }
+
+  /* Global Styles */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    line-height: 2;
+  }
+
+  h1, h2 {
+    font-family: Georgia, serif;
+    color: var(--secondary-color);
+  }
+
+  h1 {
+    border-bottom: 2px solid var(--accent-color);
+  }
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--accent-color);
+  }
+
+  /*styling for the main navigation bar structure*/
+  nav{
+    background-color: var(--secondary-color);
+    padding: 10px;
+    display: flex;
+  }
+
+  nav a {
+    color: #ffffff;
+    margin: 0 15px;
+  }
+
+  nav ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ nav ul li {
+    display: inline;
+    margin: 0 60px;
+}
+
+ nav ul li a{
+    color: var(--background-color);
+    text-decoration: none;
+    font-size: 18px;
+
+}
+  /*styling the header elements*/
+  .header {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /*styling the main heading at the top of home page*/
+  .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .section-title {
+    color: var(--secondary-color);
+  }
+  /*styling for the main home page image*/
+  .gizmo_main_photo img{
+    max-width: 40%;
+    border: 2px solid var(--accent-color);
+    border-radius: 8px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  /*styling for the small image at the bottom of the home page and intro of about page*/
+  .side_photo img {
+    max-width: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid;
+  }
+
+  .gallery-intro {
+    text-align: center;
+  }
+
+  .intro{
+    text-align: center;
+  }
+
+  .contact {
+    margin-bottom: 15px;
+  }
+
+  /*styling for the textarea is for the message in the contact form*/
+  textarea {
+    font-family: inherit;
+    font-size: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-left:0px;
+}
+
+/* align the input area for the form*/
+label{
+    width: 70px;
+    display: inline-block
+}
+/*styling for the send button in the contact form*/
+  .send {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .send:hover {
+    background-color: var(--secondary-color);
+  }
+
+  /*styling for the photo gallery*/
+  .gallery-photo img {
+    border: 2px solid var(--secondary-color);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(60% - 10px); /* calculating the size of the screen to allow the image positioning then padding according to position*/
+    position: relative;
+    margin-top: 15px;
+
+  }
+
+  .gallery-photo img {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+ }
+
+  .gallery-photo img:hover {
+    opacity: 0.8;
+ }
+
+  /*styling for the labels that are at the bottom of the image*/
+  .photo-label {
+    position: relative;
+    bottom: -2px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    padding: 4px 8px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    width: calc(60% - 20px);
+
+  }
+
+  /*Scroll back to top button*/
+  .to_top {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: -40px;
+    z-index: 99;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  .to_top:hover {
+    background-color: var(--secondary-color);
+  }
+
+/*styling the footer*/
+  footer{
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+  }
