@@ -23,8 +23,6 @@ Welcome to my frontend project, the website of Gizmo, an adorable pet cat. This 
 
 You can view a live demo of the website [here](https://mandla-tech.github.io/gizmo-website-project/)
 
-You can also viw a livew demo [here] (https://gizmo-website-project.netlify.app)
-
 ## Project Structure
 
 The project consists of the following files and directories:
