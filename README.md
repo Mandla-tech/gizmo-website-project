@@ -21,7 +21,9 @@ Welcome to my frontend project, the website of Gizmo, an adorable pet cat. This 
 
 ## Demo
 
-You can view a live demo of the website [here](#).
+You can view a live demo of the website [here](https://mandla-tech.github.io/gizmo-website-project/)
+
+You can also viw a livew demo [here] (https://gizmo-website-project.netlify.app)
 
 ## Project Structure
 
@@ -134,10 +136,15 @@ The external links in the cat care resources page are sourced from reputable web
 
 Images are sourced from Unsplash by:
 Koen Eijelenboom
+
 Leah Hetteberg
+
 Jan Gustavson
+
 Dean Ricciardi
+
 Erik Jan-Leusink
+
 Martin Katler
 
 Thank you for visiting Gizmo's website! If you have any questions or feedback, feel free to get in touch.
